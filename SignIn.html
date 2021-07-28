@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-auth.js"></script>
+    <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyChE41z53sGGLX0Lmv_KaB4n2XCPJ83yGM",
+            authDomain: "olx1-1dbdd.firebaseapp.com",
+            projectId: "olx1-1dbdd",
+            storageBucket: "olx1-1dbdd.appspot.com",
+            messagingSenderId: "966314082266",
+            appId: "1:966314082266:web:2bd3a8eddae0f3eb70cae3",
+            measurementId: "G-PVSD0HLNP5"
+        };
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+<body>
+    <h1>Sign In</h1><br><br>
+    <label for="signin1">Email </label>
+    <input type="text" name="" id="signin1"><br><br>
+    <label for="signin2">Password </label>
+    <input type="password" name="" id="signin2"><br><br>
+    <button onclick="signIn()">Sign In</button>
+    <script src="app.js"></script>
+</body>
+</html>
